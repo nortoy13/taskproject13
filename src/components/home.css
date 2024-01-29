@@ -1,0 +1,157 @@
+.home{
+    position: relative;
+    display: flex;
+    background: rgb(235, 242, 241);
+}
+.left{
+    position: sticky;
+    width: 300px;
+    height: 100%;
+    border-right: 2px solid  rgb(235, 242, 241);
+}
+.right{
+    width: 100%;
+}
+.logo{
+    font-size: 24px;
+    padding-top: 6px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.navtop{
+    position: sticky;
+    height: 56px;
+    border-bottom: 2px solid  rgb(235, 242, 241);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: white;
+}
+.arrow{
+    border: none;
+    border-radius: 6px;
+    background: #6E8BB71F;
+    height: 28px;
+}
+.leftBottom{
+    height: 730px;
+    background: white;
+}
+.navrighttop{
+    width: 100%;
+    height: 56px;
+    border-bottom: 2px solid  rgb(235, 242, 241);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: white;
+}
+.heading{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    padding-top: 6px;
+}
+.navbar{
+    width: 100%;
+    margin: 0 20px;
+    display: flex;
+}
+.createBtn{
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    height: 36px;
+    width: 115px;
+    background: #36AD49;
+    color: white;
+    padding: 0px, 12px, 4px, 8px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+}
+.plusIcon{
+    font-size: larger;
+    font-size: 20px;
+    font-weight: 300;
+}
+.btnText{
+    padding-top: 2px;
+}
+.rightbottom{
+    width: 98%;
+    height: 90%;
+    margin: 10px;
+    background: white;
+}
+.menuLink{
+    padding-top: 15px;
+    margin-left: 20px;
+    color: #6E8BB7;
+    font-size: 14px;
+    cursor: pointer;
+}
+.menuLink span{
+    margin-right: 5px;
+}
+.createForm{
+    position: absolute;
+    width: 740px;
+    height: 495px;
+    background-color: white;
+    top: 170px;
+    left: 340px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.createForm form{
+    width: 100%;
+}
+.form-header{
+    margin: 10px ;
+    margin-right: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+}
+.form-header h5{
+    font-size: 20px;
+    font-weight: 600;
+}
+.frow{
+    margin-left: 10px;
+    margin-top: 16px;
+}
+.frow label{
+    width: 155px;
+    font-size: 14px;
+}
+.frow input{
+    width: 560px;
+    border: none;
+    border-radius: 6px;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid #e1e1e1;
+}
+.btns{
+    margin-top: 30px;
+    margin-left: 220px;
+}
+.btns button{
+    border: none;
+    margin-right: 20px;
+    width: 240px;
+    height: 40px;
+    border-radius: 6px;
+}
+.cancel{
+    background: white;
+    border: 1px solid #e1e1e1;
+    color: #36AD49;
+}
+.save{
+    background: #36AD49;
+    color: white;
+}

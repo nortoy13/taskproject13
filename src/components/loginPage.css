@@ -1,0 +1,44 @@
+.lpage{
+  display: flex;
+}
+.background{
+    width: 50%;
+}
+.bgImage{
+    height: 100vh;
+width: 100%;
+}
+.form{
+    width: 50%;
+    padding: 80px;
+}
+form{
+    width: 540px;
+    margin: auto;
+}
+.heading{
+    text-align: center;
+}
+.logininput{
+    display: block;
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    border: 1px solid rgb(180, 180, 180) ;
+    padding-left: 10px;
+}
+h1{
+    padding-bottom: 150px;
+}
+.form label{
+    margin-top: 10px;
+}
+.submitBtn{
+    height: 55px;
+    background: #36AD49;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    align-self: end;
+    margin-top: 150px;
+}
